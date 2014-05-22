@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace HelloOOP
 {
+    //This is a class
     class Program
     {
+        //This is a Method
         static void Main(string[] args)
         {
             // Declare two variables (object references)
@@ -27,6 +29,7 @@ namespace HelloOOP
             Speak(klingonWarrior, "Worf");
         }
 
+        //This is a Method
         static void Speak(Greeter someone, string name)
         {
             Console.WriteLine(someone.SayGreeting(name));
